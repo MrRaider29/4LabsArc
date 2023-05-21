@@ -44,7 +44,7 @@ class Program
 
             try
             {
-                int folderCount = Directory.GetDirectories(folderPath).Length;
+                int folderCount = Directory.GetFiles(folderPath).Length;
                 Console.WriteLine("Количество файлов: " + folderCount);
             }
             catch (Exception ex)
