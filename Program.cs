@@ -50,6 +50,7 @@ class Program
             catch (Exception ex)
             {
                 Console.WriteLine("Ошибка: " + ex.Message);
+                Environment.Exit(-1);
             }
         }
 
